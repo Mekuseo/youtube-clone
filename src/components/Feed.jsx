@@ -10,7 +10,13 @@ const Feed = () => {
         <Sidebar />
 
         <Typography className="copyright" variant='body2' sx={{ mt: 1.5, color: '#fff' }}>
-          copyright 2023 Chukwuemeka
+          copyright 2024 Chukwuemeka
+        </Typography>
+      </Box>
+
+      <Box>
+        <Typography variant='h4' fontWeight='bold' mb={2} sx={{ color: 'white'}}>
+          New <span style={{ color: '#f31503'}}>Videos</span>
         </Typography>
       </Box>
     </Stack>
